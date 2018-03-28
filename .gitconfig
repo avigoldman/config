@@ -1,0 +1,23 @@
+[user]
+	name = Avi Goldman
+	email = avrahamymgoldman@gmail.com
+	username = avigoldman
+[web]
+	browser = google-chrome
+[color]
+	ui = auto
+[hub]
+    protocol = https
+[core]
+    editor = code --wait
+
+[alias]
+    back = !git checkout HEAD~
+    forward = !git rev-list --topo-order HEAD..master | tail -1 | xargs !git checkout
+    latest = !git checkout master
+    prune = !git remote update --prune
+    contributors = !git shortlog -sn
+    recommit = !git commit --amend --no-edit --no-verify
+    undo = !git reset HEAD~1
+    vlog = !git log --oneline --decorate --all --graph
+    ac = !git add -A && git commit
