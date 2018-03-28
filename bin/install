@@ -1,0 +1,42 @@
+# get brew for installing...everything
+which -s brew
+if [[ $? != 0 ]] ; then
+    # Install Homebrew
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+    brew update
+fi
+
+# get cask for installing GUIs
+brew tap caskroom/cask
+
+# install GUIs
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install visual-studio-code
+brew cask install spotify
+brew cask install slack
+brew cask install torbrowser
+brew cask install postman # browser for APIs
+brew cask install mamp # php development (brings apache and MySQL)
+brew cask install postico # postgresql UI
+brew cask install sequel-pro # mysql UI
+brew cask install mongodb-compass # mongodb UI
+
+# install databases
+brew install postgresql
+brew install mongodb
+sudo mkdir -p /data/db && sudo chown -R `id -un` /data/db # storage for mongodb
+
+# install Oh My Zsh
+brew install zsh zsh-completions
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# setup dev tools
+brew install git
+brew install node
+
+# install some useful CLIs
+npm install -g n # control node version
+npm i -g trash-cli # Move files and folders to the trash
+npm install -g spoof # Easily spoof your MAC address
