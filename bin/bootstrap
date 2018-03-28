@@ -2,3 +2,4 @@ git clone --bare git@github.com:avigoldman/config.git $HOME/.config
 config="/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME"
 $config stash
 $config config --local status.showUntrackedFiles no
+rm README.md
