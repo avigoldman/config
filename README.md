@@ -35,6 +35,10 @@ After downloading this repo, run `./bin/install` to install the following:
 * VS Code
 * spotify
 * Slack
+* Muzzle
+* Alfred
+* Figma
+* Divvy
 * Tor Browser
 * Postman
 * mamp
