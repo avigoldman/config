@@ -18,6 +18,8 @@ brew cask install spotify
 brew cask install slack
 brew cask install muzzle
 brew cask install alfred
+brew cask install figma
+brew cask install divvy
 brew cask install torbrowser
 brew cask install postman # browser for APIs
 brew cask install mamp # php development (brings apache and MySQL)
