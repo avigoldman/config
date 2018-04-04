@@ -20,8 +20,10 @@ brew cask install muzzle
 brew cask install alfred
 brew cask install figma
 brew cask install divvy
+brew cask install flux
 brew cask install torbrowser
 brew cask install postman # browser for APIs
+brew cask install filezilla
 brew cask install mamp # php development (brings apache and MySQL)
 brew cask install postico # postgresql UI
 brew cask install sequel-pro # mysql UI
@@ -44,3 +46,4 @@ brew install node
 npm install -g n # control node version
 npm i -g trash-cli # Move files and folders to the trash
 npm install -g spoof # Easily spoof your MAC address
+npm install -g serve # Serve a folder as static server

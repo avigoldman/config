@@ -39,6 +39,7 @@ After downloading this repo, run `./bin/install` to install the following:
 * Alfred
 * Figma
 * Divvy
+* Flux
 * Tor Browser
 * Postman
 * mamp
