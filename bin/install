@@ -44,6 +44,10 @@ brew install node
 
 # install some useful CLIs
 npm install -g n # control node version
-npm i -g trash-cli # Move files and folders to the trash
+npm install -g trash-cli # Move files and folders to the trash
 npm install -g spoof # Easily spoof your MAC address
 npm install -g serve # Serve a folder as static server
+npm install -g fkill # kill processes via process number, name, or port
+
+# set screenshot folder to ~/Desktop/Screenshots
+mkdir ~/Desktop/Screenshots && defaults write com.apple.screencapture location ~/Desktop/Screenshots && killall SystemUIServer
