@@ -21,7 +21,7 @@ brew cask install alfred
 brew cask install figma
 brew cask install divvy
 brew cask install flux
-brew cask install torbrowser
+brew cask install tor-browser
 brew cask install postman # browser for APIs
 brew cask install filezilla
 brew cask install mamp # php development (brings apache and MySQL)
