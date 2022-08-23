@@ -11,23 +11,19 @@ fi
 brew tap caskroom/cask
 
 # install GUIs
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install visual-studio-code
-brew cask install spotify
-brew cask install slack
-brew cask install muzzle
-brew cask install alfred
-brew cask install figma
-brew cask install divvy
-brew cask install flux
-brew cask install tor-browser
-brew cask install postman # browser for APIs
-brew cask install filezilla
-brew cask install mamp # php development (brings apache and MySQL)
-brew cask install postico # postgresql UI
-brew cask install sequel-pro # mysql UI
-brew cask install mongodb-compass # mongodb UI
+brew install --cask google-chrome
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask spotify
+brew install --cask slack
+brew install --cask muzzle
+brew install --cask alfred
+brew install --cask figma
+brew install --cask divvy
+brew install --cask flux
+brew install --cask postman 
+brew install --cask postico
+brew install --cask notunes
 
 # install databases
 brew install postgresql
