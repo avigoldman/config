@@ -32,12 +32,13 @@ brew install thefuck
 # install some useful CLIs
 npm install -g n # control node version
 npm install -g trash-cli # Move files and folders to the trash
-
-# set the default music app to spotify
-defaults write digital.twisted.noTunes replacement /Applications/Spotify.app
 npm install -g spoof # Easily spoof your MAC address
 npm install -g serve # Serve a folder as static server
 npm install -g fkill # kill processes via process number, name, or port
 
 # set screenshot folder to ~/Desktop/Screenshots
 mkdir ~/Desktop/Screenshots && defaults write com.apple.screencapture location ~/Desktop/Screenshots && killall SystemUIServer
+
+
+# set the default music app to spotify
+defaults write digital.twisted.noTunes replacement /Applications/Spotify.app
