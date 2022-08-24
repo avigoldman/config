@@ -1,11 +1,5 @@
-# get brew for installing...everything
-which -s brew
-if [[ $? != 0 ]] ; then
-    # Install Homebrew
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
-    brew update
-fi
+# get brew for installing everything
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # get cask for installing GUIs
 brew tap caskroom/cask
