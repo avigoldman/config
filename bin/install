@@ -1,8 +1,6 @@
 # get brew for installing everything
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# get cask for installing GUIs
-brew tap caskroom/cask
 
 # install GUIs
 brew install --cask google-chrome
