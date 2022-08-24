@@ -19,8 +19,6 @@ brew install --cask notunes
 
 # install databases
 brew install postgresql
-brew install mongodb
-sudo mkdir -p /data/db && sudo chown -R `id -un` /data/db # storage for mongodb
 
 # install Oh My Zsh
 brew install zsh zsh-completions
@@ -29,6 +27,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # setup dev tools
 brew install git
 brew install node
+brew install thefuck
 
 # install some useful CLIs
 npm install -g n # control node version
